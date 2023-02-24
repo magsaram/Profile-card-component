@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
 }
 body {
   display: flex;
@@ -11,17 +12,15 @@ body {
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-size: 1500px;
-  background-position: -40% +150%, +120% -150%;
+  background-position: 0% -400px, +100% +400px;
 }
 main {
-  margin: auto;
   align-items: center;
+  margin: auto;
   width: 350px;
   height: 374px;
   background-color: white;
   border-radius: 15px;
-  font-family: "Kumbh Sans", sans-serif;
 }
 div img:first-child {
   position: absolute;
@@ -29,15 +28,55 @@ div img:first-child {
 }
 div img:last-child {
   position: absolute;
+  margin: 89px 120px;
   border: 6px solid white;
   border-radius: 50%;
   z-index: 1;
-  margin: 89px 120px;
 }
 .name {
   width: 350px;
-  margin-top: 212px;
+  margin-top: 210px;
+  font-size: 10px;
+  color: hsl(229, 23%, 23%);
+  text-align: center;
+  padding-bottom: 29px;
+  border-bottom: 1px solid hsla(0, 0%, 59%, 0.322);
+}
+.name span {
+  margin-left: 5px;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+.name p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: hsl(227, 10%, 46%);
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 249px;
+  margin-left: 47px;
+  margin-top: 24px;
+}
+section h2 {
+  font-size: 18px;
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+}
+section p {
+  margin-top: 5px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: hsl(227, 10%, 46%);
+  text-align: center;
 }
 footer {
   text-align: center;
+  font-size: 10px;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }
