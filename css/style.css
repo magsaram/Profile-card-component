@@ -12,7 +12,7 @@ body {
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: 0% -400px, +100% +400px;
+  background-position: -800px -400px, +300px +300px;
 }
 main {
   align-items: center;
@@ -79,4 +79,39 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
+}
+@media (min-width: 575px) {
+  body {
+    background-position: -700px -300px, +300px +300px;
+  }
+}
+@media (min-width: 785px) {
+  body {
+    background-position: -600px -300px, +300px +500px;
+  }
+}
+@media (min-width: 1035px) {
+  body {
+    background-position: -500px -300px, +500px +500px;
+  }
+}
+@media (min-width: 1205px) {
+  body {
+    background-position: -400px -300px, +500px +500px;
+  }
+}
+@media (min-width: 1450px) {
+  body {
+    background-position: -300px -400px, +600px +500px;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    background-position: -150px -400px, +800px +500px;
+  }
+}
+@media (min-width: 1700px) {
+  body {
+    background-position: -100px -400px, +800px +500px;
+  }
 }
